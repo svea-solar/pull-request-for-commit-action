@@ -1,0 +1,15 @@
+{
+  "name": "pull-request-for-commit-action",
+  "version": "0.0.0",
+  "description": "Action to get the pull request for a commit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Svea Solar",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0"
+  }
+}

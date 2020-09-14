@@ -1,0 +1,22 @@
+name: 'Pull Request for Commit Action'
+description: 'Action to get the pull request for a commit.'
+
+branding:
+  icon: 'sun'
+  color: 'white'
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+
+inputs:
+  token:
+    description: 'GitHub token.'
+    required: true
+  sha:
+    description: 'The commit SHA of the pull request.'
+    required: true
+
+outputs:
+  pullRequest:
+    description: 'The pull request object.'
